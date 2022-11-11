@@ -1,0 +1,102 @@
+.root{
+    --primary-color: #0d0d2b;
+    --purple-color: #2b076e;
+    --blue-color: #0c56e9;
+    --cyan-blue-color: #3671e9;
+    --white-color: #ffffff;
+}
+body {
+    background-color: #0d0d2b ;
+    width: 100%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+  }
+
+body {
+    margin: 0;  
+    font-family: "mulish", sans-serif;
+}
+nav .logo {
+    position: relative;
+    width: 137px;
+    height: 40px;
+    left: 100px;
+    bottom: 65px;
+}
+nav ul {
+    flex:1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: opx 25px;
+    padding-left: 35px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+    transition: .3s;
+}      
+.badge-container {
+    display: inline-flex;
+    width: 25rem;
+    padding: 0.2rem 10rem 0.1rem 0.1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2d313b;
+    color: #ffffff;
+    border-radius: 32px;
+}
+.badge {
+    padding: 0.4rem 1.6rem;
+    border-radius: 32px;
+} 
+.badge--dark {
+    padding-left: 15px;
+    background-color: white;
+    color: #0d0d2b;;
+}
+ul li div button {
+    border: 2px solid blue;
+    width: 100%;
+    padding: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    right: 20px;
+    background: #0c56e9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button {
+    border: 2px solid blue;
+    width: 10%;
+    padding: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    background: #0c56e9;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer; 
+}   
+button.right-icon::after {  
+    content: url('Arrow Right.svg');
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    transform: translateY(-50%);
+}
+button right-icon {
+    padding-left: 50px;
+
+}
+
+
